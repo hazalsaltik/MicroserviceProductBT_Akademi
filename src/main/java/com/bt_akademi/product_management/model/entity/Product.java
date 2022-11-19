@@ -5,7 +5,7 @@ import lombok.Data;
 import javax.persistence.*;
 import java.util.Date;
 
-@SequenceGenerator(name = "PRODUCTS_SEQUENCE", sequenceName = "PRODUCTS_SEQ", initialValue = 1, allocationSize = 1)
+@SequenceGenerator(name = "PRODUCTS_SEQUENCE", sequenceName = "BT_AKADEMI_PRODUCTS_SEQ", initialValue = 1, allocationSize = 1)
 @Data
 @Table(name = "PRODUCTS")
 @Entity

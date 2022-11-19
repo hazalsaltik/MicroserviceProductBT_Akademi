@@ -57,6 +57,11 @@ public class ProductService extends AbstractProductService
     }
 
     @Override
+    public void deleteById(Integer id) {
+
+    }
+
+    @Override
     public void delete(Integer productID)
     {
         try
