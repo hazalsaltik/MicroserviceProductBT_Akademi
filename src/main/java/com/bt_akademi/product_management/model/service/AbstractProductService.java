@@ -14,6 +14,4 @@ public abstract class AbstractProductService implements EntityService<Product, I
     protected abstract List<Product> findAllByPriceGreaterThan(Double price);
 
     protected abstract List<Product> findAllByPriceGreaterThanEqual(Double price);
-
-    public abstract void delete(Integer productID);
 }
